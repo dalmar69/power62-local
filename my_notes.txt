@@ -1,0 +1,65 @@
+FILE LOCATIONS:
+autoloader: vendor/autoloader.php
+
+parsewrapper: includes/parsewrapper.php     //Throwing an exeption on line 11.
+                                            //Autoloader apearently isn't working.
+
+/*Commented Outlines
+header: line 4, line 75
+*/
+
+CORRECTIONS
+
+*Honestly all css and javascript code needs to be refactored
+    -The reason is because this was not writen to be scaleable or maintainable.
+    -An improvement to the backend is that it could be written in laravel, which 
+    is a php framework for more maintainablilty and scaleablity.
+
+
+header.php 
+file line 105 found a completely unnesscary extra </html>
+merged all css into one file. 
+having multiple rel calls = more server calls which slows down your website.
+
+Index.php
+-Moved <head> tag into the include that php where it should be.
+
+-Removed redundent js includes.  
+    -They were included in the header + bottom of index file.
+    -line 734-739
+    -Removed All morphing js files, we talked about briefly.
+        -They were cuasing the broken looking effects on the webpage.
+
+-Removed unnesscary </div> line 40
+    Youtube Videos
+        -line 622-637
+
+-Removed unnesscary Shop section
+    -lines: 297-316
+
+-Moved Under Construction to it's own page.
+
+-LOGIN / Register Pages
+    -line 431-470
+    -It should be in its own file.
+    -He wants this not to 
+
+Youtube
+    -line 181 had an anchor tag linking directly to youtube.
+
+Moved worlds info
+    -url will be power62/worlds/{world-name}
+    -major SEO benefits
+    -Currently is just a quick fix becuase its actually one file that displays the world 
+    based on the ${world-name} in the url.  Simple if statment.
+
+#3 header-logo
+    -changing this to a div with a max with of 300px.
+    -This div will have the same height 
+    -Will be devided into 2 div's leading to either startgate/login
+
+#1 load time
+    -Removed the pre-loader towards the bottom of the index page.
+    -Jesus i spent forever trying to figure out what that load timer was... lol
+    I'ma need health insurance for the migranse this cuased me lol
+

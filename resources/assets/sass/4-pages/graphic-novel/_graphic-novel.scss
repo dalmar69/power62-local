@@ -1,0 +1,33 @@
+.graphic-novel{
+    background-image: url('../images/1/hero-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;   
+    padding-top: 3rem;
+    position: relative;
+    .row{
+        height: 100%;
+    }
+    h1,h2{
+        display: inline-block;
+    }
+    .logo{
+        display: block;
+        width: 30rem;
+    }
+    .main-content{
+        // position: absolute;
+        // top: 30%; 
+        &-img{
+            width: 130rem;
+        }
+        &-link{
+            position: absolute;
+            color: $red;
+            top: 25%;
+            left: 66%;
+        }
+    }
+
+} 
