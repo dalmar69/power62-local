@@ -2,6 +2,8 @@
     padding-top: 8rem;
     padding-bottom: 6rem;
     text-align: center; 
+    //cuased by step 2 btn-container being positioned absolutely
+    margin-bottom: -10rem;  
     .bold{
         color: $black;
         font-weight: 700; 
@@ -9,7 +11,7 @@
     .row:nth-of-type(2){
         max-width: 120rem;
     }
-    .section-4-header{
+    &-header{
         font-size: 4rem;
         font-weight: 700;
         letter-spacing: 3px; 
@@ -21,6 +23,9 @@
     &-descr{
         margin-bottom: 2rem;
     }
+    &-card-desc{
+        margin-bottom: 2rem;
+    }
     &-world-card{
         @include grid-column(2, $worlds-grid);
         &-img{
@@ -28,35 +33,51 @@
             height: 50rem;
         }
         &-header{
-            margin-top: 1rem;
+            margin-top: 1.5rem;
         }
     }
     .devo{
-        height: 52rem;
+        position: relative;
+        height: 57rem;
+        width: 108%;
+        left: -5%;
+        margin-top: -2.5rem;
+        // padding: 0;
     }
     .devo-header{
-        margin-top: -1rem;
+        position: relative;
+        margin-top: -3.1rem;
     }
     .fodo{
-        width: 120%;
+        position: relative;
+        margin-top: -2rem;
+        width: 135%;
+        height: 53.6rem;
+        // padding: 0;
     }
+    .fodo-header{
+        position: relative;
+        margin-top: -.5px;
+    } 
     .step-2-container{
         position: relative;
         display: inline-block;
-        left: 65%;
+        left: 43%;
         top: -35rem; 
         .circle{
-            width: 12rem;
+            width: 8rem;
         }
         .btn{
             position: relative;
-            width: 20rem;
+            width: 15rem;
             top: 3.5rem;
             left: -38%;
         }
         .signup-link{
             position: absolute;
-            left: 9%;
+            font-size: 1.6rem; 
+            transform: translateY(30%);
+            left: 2%;
             bottom: -1.3rem;
         }
     }

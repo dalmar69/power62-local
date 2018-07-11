@@ -3,7 +3,6 @@
     padding: 4rem 2rem;
     padding-bottom: 9rem;
     position: relative;
-    margin-top: -1rem;
     .row{
         max-width: 100%;
     }
@@ -56,11 +55,14 @@
         line-height: 2rem;
         letter-spacing: 1.2px;
         font-weight: 400;
+        position: relative;
+        z-index: 20;
     }
     &-figure{
         // position: absolute;
         // top: 8%;
         // right: 8%;
+        z-index: 0;
     }
     &-main-img{
         width: 100%;
@@ -84,5 +86,4 @@
             width: 20rem;
         }
     }
-
 }

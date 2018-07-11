@@ -35,7 +35,6 @@
 	</nav> <!-- end s-header --> 
 </div> <!-- end nav-container --> 
 
- 
 <!-- Section 1 -->
 <header class="home">
 	<div class="row">
@@ -78,7 +77,7 @@
 		<div class="section-3-img-container">
 			<!-- Step 1 button -->
 			<a class="section-3-link" href="">STEP 1</a>
-			<img src="images/1/p3_butn.png" alt="step1">
+			<img class="section-3-img" src="images/1/p3_butn.png" alt="step1">
 		</div>
     </div>
 </section> <!-- End Section: 3 -->
@@ -99,8 +98,8 @@
 		</p>
 	</div>	
 	<div class="row">
+		<!-- Arango -->
         <div class="section-4-world-card">
-			<!-- Arango -->
 			<a href="/worlds/arango" class="section-4-world-card-link">
 				<img class="section-4-world-card-img" src="images/worlds/arango.jpg">
 				<h3 class="section-4-world-card-header">ARANGO:</h3>
@@ -123,6 +122,8 @@
 			</a>
 			<p class="section-4-world-card-desc">Dinosaurs rule once again.It’s like Jurassicmeets Present Day.</p>
 		</div>
+		<!-- This separetor helps keep grid in line at media 960px -->
+		<div class="separator"></div>
 		<!-- devo -->
            <div class="section-4-world-card">
 			<a href="/worlds/devo" class="section-4-world-card-link">
@@ -143,16 +144,17 @@
         <div class="section-4-world-card">
 			<a href="/worlds/fodo" class="section-4-world-card-link">
 				<img class="section-4-world-card-img fodo" src="images/worlds/fodo.png">
-				<h3 class="section-4-world-card-header">FODO:</h3>
+				<h3 class="section-4-world-card-header fodo-header">FODO:</h3>
 			</a>
 			<p class="section-4-world-card-desc">The wonderful mother Earth.Or not.</p>
 		</div>
-		<div class="step-2-container">
+		
+	</div>
+	<div class="step-2-container">
 			<img class="circle" src="images/1/p4_step2_img.png" alt="step 2 img" >
 			<img class="btn" src="images/1/signup.png" alt="" >
 			<a class="signup-link" href="/register" >SIGNUP FOR FREE</a>
 		</div>
-	</div>
 </section> <!-- End Section: 4 -->
 
 <!-- Section: 5 -->
@@ -216,14 +218,14 @@
 			</div>
 			<img src="../images/home/section-6/figure.png" alt="figure" class="section-6-figure">	
 			<img class="section-6-main-img" src="../images/home/section-6/main-picture.png" alt="main picture" class="section-6-main-picture">
-			<div class="btn-position-container">
+	</div>
+	<div class="btn-position-container">
 				<div class="section-6-btn-buyhere">
 					<a class="btn-pill section-6-btn-buyhere-text" href="/shop">BUY HERE</a>
 					<img class="section-6-btn-buyhere-img" src="../images/1/signup.png" alt="">
 				</div>
 			</div>
 		</div>
-    </div>
 </section> <!-- End Section: 6 -->
 	
 <!-- Section 7 -->
@@ -274,17 +276,6 @@
 		</div>
 	</div><!-- End Row --> 		
 </section> <!-- End Section: 7 -->
-
-
-
-<!-- Youtube video 2 -->
-<!-- <section id='p6a' class="s-services popup morphing-content hidden">
-	<div class="row services-list block-1-2 block-tab-full">
-		<div class="service-item" >
-		<iframe width="700" height="450" src="https://www.youtube.com/embed/VCnqFcr-2FE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
-		</div>
-	</div>
-</section> -->
 
 	@section('footer')
 		@include('includes.home-footer')

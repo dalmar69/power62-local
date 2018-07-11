@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    // border: 1px solid red;
 }
 //commented out to keep page from going
 //back to top...
@@ -11,10 +12,9 @@ html,body{
     font-family: $lato;
     font-size: 10px;
     color: $main-text; 
-    height: 100%; 
-    // overflow-x: hidden;
+    // height: 100%; 
+    overflow-x: hidden; 
 }
-
 .row{
     position: relative;
     max-width: 140rem;
