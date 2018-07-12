@@ -60,10 +60,10 @@
                     <label for="planet" class="label">{{ __('Pick Your Planet') }}</label>
                     <select name="planets" class="input-select" value="" required>
                         <option value=""></option>
-                        <option value="mars">mars</option>
-                        <option value="earth">earth</option>
-                        <option value="venus">venus</option>
-                        <option value="pluto">pluto</option>
+                        <option value="mars">ARANGO</option>
+                        <option value="earth">BANNOO</option>
+                        <option value="venus">CHUPANZI</option>
+                        <option value="pluto">DEVO</option>
                     </select>                     
                     <!-- @if ($errors->has('planet'))
                         <span class="invalid-feedback" role="alert">
@@ -76,10 +76,10 @@
                     <label for="city" class="label">{{ __('Select your City') }}</label>
                     <select name="city" class="input-select" value="" required>
                         <option value=""></option>
-                        <option value="detroit">detroit</option>
-                        <option value="new_york">new york</option>
-                        <option value="johnson_city">johnson city</option>
-                        <option value="knoxvile">knoxvile</option>
+                        <option value="detroit">DADE</option>
+                        <option value="new_york">DEADMANS CROSSING</option>
+                        <option value="johnson_city">ALM</option>
+                        <option value="knoxvile">SYTRES</option>
                     </select>                        
                     <!-- @if ($errors->has('city'))
                         <span class="invalid-feedback" role="alert">
