@@ -149,7 +149,7 @@
 			<p class="section-4-world-card-desc">The wonderful mother Earth.Or not.</p>
 		</div>
 		
-	</div>
+	</div> 
 	<div class="step-2-container">
 			<img class="circle" src="images/1/p4_step2_img.png" alt="step 2 img" >
 			<img class="btn" src="images/1/signup.png" alt="" >
