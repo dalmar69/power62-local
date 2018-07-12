@@ -117,7 +117,7 @@
 		<!-- chupanzi -->
         <div class="section-4-world-card">
 			<a href="/worlds/chupanzi" class="section-4-world-card-link">
-				<img class="section-4-world-card-img" src="./images/worlds/chupanzi.png">
+				<img class="section-4-world-card-img" src="./images/worlds/chupanzi.PNG">
 				<h3 class="section-4-world-card-header">CHUPANZI: </h3>
 			</a>
 			<p class="section-4-world-card-desc">Dinosaurs rule once again.It’s like Jurassicmeets Present Day.</p>
@@ -127,7 +127,7 @@
 		<!-- devo --> 
            <div class="section-4-world-card">
 			<a href="/worlds/devo" class="section-4-world-card-link">
-				<img class="section-4-world-card-img devo" src="./images/worlds/devo.png">
+				<img class="section-4-world-card-img devo" src="./images/worlds/devo.PNG">
 				<h3 class="section-4-world-card-header devo-header">DEVO:</h3>
 			</a>
 			<p class="section-4-world-card-desc">The Land of No Land.Up in the cloud.</p>
@@ -135,7 +135,7 @@
 		<!-- erax -->
         <div class="section-4-world-card">
 			<a href="/worlds/erax" class="section-4-world-card-link">
-				<img class="section-4-world-card-img" src="./images/worlds/erax.png">
+				<img class="section-4-world-card-img" src="./images/worlds/erax.PNG">
 				<h3 class="section-4-world-card-header">ERAX:</h3>
 			</a>		
 			<p class="section-4-world-card-desc">The Sandoonians have perfected the EPC and are on the brink of weaponizing.</p>
@@ -143,7 +143,7 @@
 		<!-- fodo -->
         <div class="section-4-world-card">
 			<a href="/worlds/fodo" class="section-4-world-card-link">
-				<img class="section-4-world-card-img fodo" src="./images/worlds/fodo.png">
+				<img class="section-4-world-card-img fodo" src="./images/worlds/fodo.PNG">
 				<h3 class="section-4-world-card-header fodo-header">FODO:</h3>
 			</a>
 			<p class="section-4-world-card-desc">The wonderful mother Earth.Or not.</p>
