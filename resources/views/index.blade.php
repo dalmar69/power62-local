@@ -222,7 +222,7 @@
 	<div class="btn-position-container">
 				<div class="section-6-btn-buyhere">
 					<a class="btn-pill section-6-btn-buyhere-text" href="/shop">BUY HERE</a>
-					<img class="section-6-btn-buyhere-img" src="../images/1/signup.PNG" alt="">
+					<img class="section-6-btn-buyhere-img" src="../images/1/signup.png" alt="">
 				</div>
 			</div>
 		</div>
