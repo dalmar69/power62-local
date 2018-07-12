@@ -201,7 +201,7 @@
 		<a class="section-6-youtube-link"href="#"><ion-icon class="section-6-youtube-icon" name="logo-youtube"></ion-icon>Play The Game</a>
 		</h1>
 		<div class="section-6-col-1">
-			<img class= "section-6-picture-group" src="../images/home/section-6/left-picture-group.png" alt="picture group">
+			<img class= "section-6-picture-group" src="../images/home/section-6/left-picture-group.PNG" alt="picture group">
 		</div>
 		<div class="section-6-col-2">
 			<div class="section-6-description">  
