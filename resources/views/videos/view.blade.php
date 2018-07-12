@@ -17,7 +17,12 @@
                 SEE WHY WE'ER ALL AT RISK.
             @endif
         </h1>
-		<iframe class="iframe" src="https://www.youtube.com/embed/VCnqFcr-2FE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
+        @if($_SERVER['REQUEST_URI'] == "/videos/1")
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/bn40jr3or_Y" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>       
+        @endif
+        @if($_SERVER['REQUEST_URI'] == "/videos/2")
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/BlKGZUh_zOU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>    
+        @endif
     </div>
 </div>
 

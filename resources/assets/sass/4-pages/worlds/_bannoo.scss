@@ -5,7 +5,7 @@
     }
     .main-img{
         position: relative;
-        width: 95%; 
+        width: 80%; 
         left: 5rem;
     }
     .secondary-img{
@@ -31,10 +31,17 @@
             letter-spacing: 1.1px;
         }
     }
+    .figure{
+        position: relative;
+        vertical-align: text-top;
+        height: 23rem;
+        left: 50%;
+    }
     .section-banner-imgs{
         @include grid-container;
-        @include grid-shift(2);
+        
         .banner-card{
+            @include grid-shift(5);
             @include grid-column(3);
         }
         .banner-img{

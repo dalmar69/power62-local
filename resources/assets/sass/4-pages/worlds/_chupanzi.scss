@@ -5,7 +5,7 @@
     }
     .main-img{
         position: relative;
-        width: 95%; 
+        width: 80%; 
         left: 5rem;
     }
     .secondary-img{
@@ -33,7 +33,7 @@
     }
     .section-banner-imgs{
         @include grid-container;
-        @include grid-shift(2);
+        @include grid-shift(3.5);
         .banner-card{
             @include grid-column(3);
         }

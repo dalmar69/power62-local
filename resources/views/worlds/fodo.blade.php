@@ -22,8 +22,9 @@
             </p>
         </div>
     </div>
+    <img src="../images/worlds/fodo/figure.png" alt="robot figure" class="robot-figure">
     <div class="row">
-        <img src="../images/worlds/fodo/figure.png" alt="robot figure" class="robot-figure">
+        
         <p class="tag">BINKE84</p> 
         <div class="section-banner-imgs">
             <div class="banner-card">

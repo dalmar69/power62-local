@@ -5,7 +5,7 @@
     }
     .main-img{
         position: relative;
-        width: 95%; 
+        width: 80%; 
         left: 5rem;
     }
     .secondary-img{
@@ -31,9 +31,16 @@
             letter-spacing: 1.1px;
         }
     }
+    .robot-figure{
+        position: absolute;
+        width: 40rem;
+        top: 25rem;
+        left: 0;
+    }
     .section-banner-imgs{
         @include grid-container;
-        @include grid-shift(2);
+        @include grid-shift(4.5);
+        margin-top: 3.5rem;
         .banner-card{
             @include grid-column(3);
         }

@@ -336,7 +336,6 @@ a {
 .section-3-img-container {
   position: relative;
   display: block;
-  padding-left: 2rem;
   text-align: left;
   top: 50%;
 }
@@ -346,7 +345,7 @@ a {
   display: inline-block;
   position: absolute;
   top: 15%;
-  left: 5%;
+  left: 2%;
   z-index: 200;
 }
 
@@ -1186,7 +1185,7 @@ words:[
 
 .arango .main-img {
   position: relative;
-  width: 95%;
+  width: 80%;
   left: 5rem;
 }
 
@@ -1260,7 +1259,7 @@ words:[
 
 .bannoo .main-img {
   position: relative;
-  width: 95%;
+  width: 80%;
   left: 5rem;
 }
 
@@ -1292,9 +1291,11 @@ words:[
   letter-spacing: 1.1px;
 }
 
-.bannoo .section-banner-imgs {
-  left: calc(16.66666667% - 23.33333333px + 20px);
+.bannoo .figure {
   position: relative;
+  vertical-align: text-top;
+  height: 23rem;
+  left: 50%;
 }
 
 .bannoo .section-banner-imgs::after {
@@ -1304,6 +1305,8 @@ words:[
 }
 
 .bannoo .section-banner-imgs .banner-card {
+  left: calc(41.66666667% - 28.33333333px + 20px);
+  position: relative;
   width: calc(25% - 25px);
   float: left;
   margin-left: 20px;
@@ -1334,7 +1337,7 @@ words:[
 
 .chupanzi .main-img {
   position: relative;
-  width: 95%;
+  width: 80%;
   left: 5rem;
 }
 
@@ -1367,7 +1370,7 @@ words:[
 }
 
 .chupanzi .section-banner-imgs {
-  left: calc(16.66666667% - 23.33333333px + 20px);
+  left: calc(29.16666667% - 25.83333333px + 20px);
   position: relative;
 }
 
@@ -1408,7 +1411,7 @@ words:[
 
 .devo .main-img {
   position: relative;
-  width: 95%;
+  width: 80%;
   left: 5rem;
 }
 
@@ -1441,8 +1444,9 @@ words:[
 }
 
 .devo .section-banner-imgs {
-  left: calc(16.66666667% - 23.33333333px + 20px);
+  left: calc(25% - 25px + 20px);
   position: relative;
+  margin-top: 3rem;
 }
 
 .devo .section-banner-imgs::after {
@@ -1482,7 +1486,7 @@ words:[
 
 .erax .main-img {
   position: relative;
-  width: 95%;
+  width: 80%;
   left: 5rem;
 }
 
@@ -1514,9 +1518,17 @@ words:[
   letter-spacing: 1.1px;
 }
 
-.erax .section-banner-imgs {
-  left: calc(16.66666667% - 23.33333333px + 20px);
+.erax p.tag {
   position: relative;
+  top: -7rem;
+  left: 100rem;
+  font-size: 1.3rem;
+}
+
+.erax .section-banner-imgs {
+  left: calc(29.16666667% - 25.83333333px + 20px);
+  position: relative;
+  top: -8rem;
 }
 
 .erax .section-banner-imgs::after {
@@ -1556,7 +1568,7 @@ words:[
 
 .fodo .main-img {
   position: relative;
-  width: 95%;
+  width: 80%;
   left: 5rem;
 }
 
@@ -1588,9 +1600,17 @@ words:[
   letter-spacing: 1.1px;
 }
 
+.fodo .robot-figure {
+  position: absolute;
+  width: 40rem;
+  top: 25rem;
+  left: 0;
+}
+
 .fodo .section-banner-imgs {
-  left: calc(16.66666667% - 23.33333333px + 20px);
+  left: calc(37.5% - 27.5px + 20px);
   position: relative;
+  margin-top: 3.5rem;
 }
 
 .fodo .section-banner-imgs::after {

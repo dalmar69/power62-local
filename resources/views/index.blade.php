@@ -76,7 +76,7 @@
 		<h2 class="section-3-sub-header red small-font">TO STAR SYSTEM 62</h2>
 		<div class="section-3-img-container">
 			<!-- Step 1 button -->
-			<a class="section-3-link" href="">STEP 1</a>
+			<a class="section-3-link" href="/videos/1">STEP 1</a>
 			<img class="section-3-img" src="images/1/p3_butn.png" alt="step1">
 		</div>
     </div>
@@ -187,8 +187,8 @@
 		<div class="section-5-right-section">
 			<div class="section-5-sondoonin-logo">SANDOONIAN LOGO</div>
 			<img class="section-5-robot-img" src="images/1/p5_left_img.png" alt="EPC ERANIUM PROCESSOR CORE">
-			<a href="#"> 
-				<img class="section-5-step2-btn" src="images/1/p5_step2_btn.png" alt="step-2">
+			<a href="/videos/2"> 
+				<img class="section-5-step2-btn" src="images/1/p5_step2_btn.PNG" alt="step-3">
 			</a>
 		</div>
 	</div>
@@ -198,7 +198,7 @@
 <section class="section-6">
     <div class="row" >
 		<h1 class="section-6-header header-shadow">Power62 <span class="small-font">TM</span>Game v 1.0
-		<a class="section-6-youtube-link"href="#"><ion-icon class="section-6-youtube-icon" name="logo-youtube"></ion-icon>Play The Game</a>
+		<a class="section-6-youtube-link"href="/underconstruction"><ion-icon class="section-6-youtube-icon" name="logo-youtube"></ion-icon>Play The Game</a>
 		</h1>
 		<div class="section-6-col-1">
 			<img class= "section-6-picture-group" src="../images/home/section-6/left-picture-group.PNG" alt="picture group">

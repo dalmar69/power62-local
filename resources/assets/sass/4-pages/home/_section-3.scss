@@ -27,16 +27,18 @@
     &-img-container{
         position: relative;
         display: block;
-        padding-left: 2rem;
         text-align: left;
         top: 50%;   
+    }
+    &-img{
+        
     }
     &-link{
         color: $black;
         display: inline-block;
         position: absolute;
         top: 15%;
-        left: 5%;
+        left: 2%;
         z-index: 200;
     }
 }

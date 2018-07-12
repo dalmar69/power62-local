@@ -20,11 +20,11 @@
                 the citizens of India, China, Japan and Korea on earth. After Bannoo's revolution and declaration 
                 of independence, the colonist's powerful will to survive shaped the colony, and created a 
                 technologically advanced society and a new class of warrior, the Techno-Ninjas.
+                <img src="../images/worlds/bannoo/female-figure.png" alt="figure" class="figure">
             </p>
         </div>
     </div>
     <div class="row">
-        <img src="../images/worlds/bannoo/female-figure.png" alt="figure" class="figure">
         <div class="section-banner-imgs">
             <div class="banner-card">
                 <img src="../images/worlds/bannoo/sub_1.png" alt="sub_1" class="banner-img">

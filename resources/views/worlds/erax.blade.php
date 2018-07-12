@@ -37,9 +37,11 @@
                     ALMA CLAN  RESEMBLES <br>
                     THE VIKING MAURADERS
                 </p>
-                <p class="tag">GRAND POOHPA 49</p>
+                
             </div>
+            
         </div>
+        <p class="tag">GRAND POOHPA 49</p>
     </div>
 </div>
 @endsection
