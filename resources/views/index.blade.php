@@ -188,7 +188,7 @@
 			<div class="section-5-sondoonin-logo">SANDOONIAN LOGO</div>
 			<img class="section-5-robot-img" src="images/1/p5_left_img.png" alt="EPC ERANIUM PROCESSOR CORE">
 			<a href="/videos/2"> 
-				<img class="section-5-step2-btn" src="images/1/p5_step2_btn.PNG" alt="step-3">
+				<img class="section-5-step2-btn" src="images/1/p5_step2_btn.png" alt="step-3">
 			</a>
 		</div>
 	</div>
