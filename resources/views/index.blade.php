@@ -216,13 +216,13 @@
 				turn your StarPort into a combat map for online play in v2.0. <span class="red">RAD!</span> 
 				</p>	
 			</div>
-			<img src="../images/home/section-6/figure.png" alt="figure" class="section-6-figure">	
-			<img class="section-6-main-img" src="../images/home/section-6/main-picture.png" alt="main picture" class="section-6-main-picture">
+			<img src="../images/home/section-6/figure.PNG" alt="figure" class="section-6-figure">	
+			<img class="section-6-main-img" src="../images/home/section-6/main-picture.PNG" alt="main picture" class="section-6-main-picture">
 	</div>
 	<div class="btn-position-container">
 				<div class="section-6-btn-buyhere">
 					<a class="btn-pill section-6-btn-buyhere-text" href="/shop">BUY HERE</a>
-					<img class="section-6-btn-buyhere-img" src="../images/1/signup.png" alt="">
+					<img class="section-6-btn-buyhere-img" src="../images/1/signup.PNG" alt="">
 				</div>
 			</div>
 		</div>
