@@ -36,6 +36,7 @@
         @include grid-shift(3.5);
         .banner-card{
             @include grid-column(3);
+            margin-top: 2rem;
         }
         .banner-img{
             width: 100%;

@@ -12,14 +12,13 @@
         @include grid-column(6);
     }
     .shop-header{
-        
         font-size: 3rem;
         font-weight: 400;
         letter-spacing: 1.5px;
     }
     .logo{
         position: relative;
-        
+        max-width: 70rem;
         width: 100%;
     }
     .col-2{

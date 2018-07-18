@@ -34,6 +34,7 @@
     .section-banner-imgs{
         @include grid-container;
         @include grid-shift(2);
+        margin-top: 3rem; 
         .banner-card{
             @include grid-column(3);
         }

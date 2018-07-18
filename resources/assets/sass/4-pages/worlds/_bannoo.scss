@@ -33,9 +33,9 @@
     }
     .figure{
         position: relative;
-        vertical-align: text-top;
+        display: block;
         height: 23rem;
-        left: 50%;
+        left: 30%;
     }
     .section-banner-imgs{
         @include grid-container;

@@ -14,6 +14,3 @@
     document.body.style.overflow = "hidden";
 </script>
 @endsection
-
-
-

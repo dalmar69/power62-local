@@ -18,15 +18,11 @@
             @endif
         </h1>
         @if($_SERVER['REQUEST_URI'] == "/videos/1")
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/bn40jr3or_Y" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>       
+            <iframe width="80%" height="420" src="https://www.youtube.com/embed/bn40jr3or_Y" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>       
         @endif
         @if($_SERVER['REQUEST_URI'] == "/videos/2")
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/BlKGZUh_zOU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>    
+            <iframe width="80%" height="420" src="https://www.youtube.com/embed/BlKGZUh_zOU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>    
         @endif
     </div>
 </div>
-
-<script>
-    document.body.style.overflow = "hidden";
-</script>
 @endsection

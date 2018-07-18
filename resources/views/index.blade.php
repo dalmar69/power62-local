@@ -69,7 +69,7 @@
     </div> <!-- end about-stats -->
 </section> <!-- end Section 2 -->
 
- <!-- Section: 3-->
+<!-- Section: 3-->
 <section class="section-3">
 	<div class="row">
         <h1 class="section-3-header header-shadow">READY TO LEAVE EARTH?</h1>

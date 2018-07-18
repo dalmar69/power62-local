@@ -15,9 +15,11 @@
 @import "worlds/_devo";
 @import "worlds/_erax";
 @import "worlds/_fodo";
+@import "worlds/_worlds-media";
 
 //videos
 @import "videos/_videos";
+@import "videos/_videos-media";
 
 //graphic-novel
 @import "graphic-novel/_graphic-novel"; 
@@ -35,6 +37,7 @@
 
 //shop
 @import "shop/_shop-welcome";
+@import "shop/_shop-welcome-media";
 
 //auth
 @import "auth/_login";
