@@ -21,12 +21,14 @@
 
 //graphic-novel
 @import "graphic-novel/_graphic-novel"; 
+@import "graphic-novel/_graphic-novel-media"; 
 
 //contract
 @import "contract/_contract";
 
 //contact us
 @import "contact/_contact";
+@import "contact/_contact-media.scss";
 
 //under construction
 @import "under-construction/_under-construction";
@@ -37,6 +39,8 @@
 //auth
 @import "auth/_login";
 @import "auth/_register"; 
+@import "auth/_login-media";
+@import "auth/_register-media";
 
 //user
 @import "profile/_profile-setup"; 

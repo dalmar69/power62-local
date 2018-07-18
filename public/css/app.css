@@ -1668,6 +1668,7 @@ words:[
   background-position: center;
   height: 100vh;
   padding-top: 3rem;
+  padding-left: 2rem;
   position: relative;
 }
 
@@ -1776,6 +1777,7 @@ words:[
 }
 
 .contact {
+  position: relative;
   background: #8c8b8c;
   height: 100vh;
   padding-top: 5rem;
@@ -1871,6 +1873,12 @@ words:[
   position: relative;
 }
 
+.contact .col-1::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
 .contact .col-2 {
   width: calc(50% - 30px);
   float: left;
@@ -1879,13 +1887,151 @@ words:[
   position: relative;
 }
 
+.contact .col-2::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
 .contact .full-col {
   width: calc(87.5% - 37.5px);
   float: left;
   margin-left: 20px;
   left: calc(4.16666667% - 20.83333333px + 20px);
   position: relative;
-  top: 15rem;
+  margin-top: 15rem;
+}
+
+.contact .full-col::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+@media only screen and (max-width: 870px) {
+  .contact {
+    height: auto;
+    padding-bottom: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .contact .logo {
+    width: 50rem;
+  }
+  .contact .textarea {
+    width: 50%;
+  }
+  .contact .submit {
+    right: 21%;
+  }
+  .contact .col-1 {
+    width: calc(100% - 40px);
+    float: left;
+    margin-left: 20px;
+    top: 20rem;
+  }
+  .contact .col-2 {
+    width: calc(100% - 40px);
+    float: left;
+    margin-left: 20px;
+    left: calc(33.33333333% - 26.66666667px + 20px);
+    position: relative;
+    top: -25rem;
+  }
+  .contact .full-col {
+    width: calc(100% - 40px);
+    float: left;
+    margin-left: 20px;
+    left: calc(4.16666667% - 20.83333333px + 20px);
+    position: relative;
+    margin-top: 18rem;
+  }
+}
+
+@media only screen and (max-width: 554px) {
+  .contact .logo {
+    width: 40rem;
+  }
+  .contact .col-2 {
+    left: calc(20.83333333% - 24.16666667px + 20px);
+    position: relative;
+    top: -25rem;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .contact .label {
+    display: block;
+  }
+  .contact .col-2 {
+    left: calc(8.33333333% - 21.66666667px + 20px);
+    position: relative;
+    top: -35rem;
+  }
+  .contact .textarea {
+    top: 2.5rem;
+    left: 0;
+  }
+  .contact .submit {
+    top: 19rem;
+    left: 0;
+  }
+  .contact .full-col {
+    width: calc(100% - 40px);
+    float: left;
+    margin-left: 20px;
+    left: calc(4.16666667% - 20.83333333px + 20px);
+    position: relative;
+    margin-top: 27rem;
+  }
+}
+
+@media only screen and (max-width: 416px) {
+  .contact .row {
+    left: -2rem;
+  }
+  .contact .logo {
+    width: 35rem;
+  }
+  .contact .input {
+    width: 70%;
+  }
+  .contact .textarea {
+    width: 70%;
+  }
+  .contact .col-2 {
+    font-size: 1.6rem;
+  }
+  .contact .full-col {
+    font-size: 1.6rem;
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  .contact .col-1 {
+    top: 15rem;
+  }
+  .contact .col-2 {
+    top: -40rem;
+  }
+}
+
+@media only screen and (max-width: 354px) {
+  .contact .row {
+    left: -4rem;
+  }
+  .contact .logo {
+    width: 30rem;
+  }
+}
+
+@media only screen and (max-width: 334px) {
+  .contact .company-info {
+    font-size: 1.5rem;
+  }
+  .contact .greeting {
+    font-size: 1.5rem;
+  }
 }
 
 .under-construction {
@@ -1997,8 +2143,6 @@ words:[
   position: absolute;
   right: 0;
   width: 70%;
-  background-image: -webkit-gradient(linear, left bottom, right top, from(rgba(0, 0, 0, 0)), to(black));
-  background-image: linear-gradient(to top right, rgba(0, 0, 0, 0), black);
   height: auto;
 }
 
@@ -2039,6 +2183,10 @@ words:[
 .login .form {
   position: relative;
   top: 2rem;
+}
+
+.login .form-group {
+  position: relative;
 }
 
 .login-header {
@@ -2089,7 +2237,7 @@ words:[
   position: absolute;
   background: none;
   border: none;
-  top: 140%;
+  top: 260%;
   left: 30%;
 }
 
@@ -2230,6 +2378,579 @@ words:[
 
 .register .submit:hover {
   cursor: pointer;
+}
+
+@media only screen and (max-width: 1476px) {
+  .login .login-btn {
+    top: 220%;
+    left: 27%;
+  }
+}
+
+@media only screen and (max-width: 1374px) {
+  .login .login-panel-container {
+    width: 75%;
+  }
+  .login-header {
+    left: 30%;
+  }
+  .login .forgot-link {
+    top: 0rem;
+  }
+}
+
+@media only screen and (max-width: 1290px) {
+  .login .login-btn {
+    top: 150%;
+    left: 29%;
+  }
+  .login .login-btn-img {
+    width: 12rem;
+  }
+}
+
+@media only screen and (max-width: 1158px) {
+  .login .login-panel-container {
+    width: 80%;
+  }
+  .login-header {
+    top: -6rem;
+    font-size: 2.5rem;
+    left: 30%;
+  }
+  .login .form-group:first-of-type {
+    margin-top: -1rem;
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  .login .login-panel-container {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 890px) {
+  .login .links-ul {
+    position: relative;
+    top: -2rem;
+  }
+  .login .links-ul li {
+    list-style-type: none;
+    margin-top: 2rem;
+  }
+  .login .login-btn {
+    top: 130%;
+    left: 26%;
+  }
+}
+
+@media only screen and (max-width: 840px) {
+  .login .login-panel-container {
+    width: 100%;
+  }
+  .login .form-group:first-of-type {
+    margin-top: -1.5rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .login-header {
+    top: -8rem;
+    font-size: 2.5rem;
+  }
+  .login .input {
+    height: 2rem;
+  }
+  .login-panel-img {
+    height: 20rem;
+  }
+  .login .form-group:first-of-type {
+    margin-top: -3rem;
+  }
+  .login .links-ul {
+    top: -3rem;
+  }
+  .login .links-ul li {
+    margin-top: 1rem;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .login-header {
+    top: -8rem;
+    left: 28%;
+    font-size: 2rem;
+  }
+  .login .form-group:first-of-type {
+    margin-top: -4rem;
+  }
+  .login .login-btn {
+    top: 180%;
+    left: 24%;
+  }
+  .login .login-btn-img {
+    width: 10rem;
+  }
+  .login .right-arrow {
+    width: 2rem;
+  }
+  .login .links-ul {
+    top: -4rem;
+  }
+  .login .links-ul li {
+    margin-top: 1rem;
+  }
+}
+
+@media only screen and (max-width: 618px) {
+  .login-header {
+    top: -9rem;
+    left: 28%;
+    font-size: 1.8rem;
+  }
+  .login .input {
+    font-size: 1.8rem;
+    height: 1.8rem;
+  }
+  .login .forgot-link {
+    font-size: 1.6rem;
+  }
+  .login .form-group:first-of-type {
+    margin-top: -5.5rem;
+  }
+  .login .links-ul {
+    font-size: 1.6rem;
+    left: -5%;
+  }
+  .login .links-ul a {
+    top: -.5rem;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .login-header {
+    top: -10rem;
+    left: 28%;
+    font-size: 1.8rem;
+  }
+  .login .form-group:first-of-type {
+    margin-top: -6rem;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .login-header {
+    top: -11rem;
+    left: 28%;
+    font-size: 1.8rem;
+  }
+  .login .form-group:first-of-type {
+    margin-top: -7rem;
+  }
+  .login .form-group {
+    margin-left: -4%;
+  }
+  .login .links-ul {
+    top: -6rem;
+  }
+  .login .login-btn {
+    top: 180%;
+    left: 20%;
+  }
+  .login .login-btn-img {
+    width: 10rem;
+  }
+}
+
+@media only screen and (max-width: 484px) {
+  .login .login-panel-container {
+    left: -8%;
+    width: 110%;
+  }
+  .login-header {
+    top: -11.5rem;
+    left: 26%;
+    font-size: 1.6rem;
+  }
+  .login .form-group:first-of-type {
+    margin-top: -7rem;
+  }
+  .login .form-group {
+    margin-left: -3%;
+  }
+  .login .login-btn {
+    top: 200%;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .login .form-group {
+    top: -2rem;
+    margin-left: -4%;
+  }
+  .login-header {
+    top: -12rem;
+    left: 26%;
+    font-size: 1.6rem;
+  }
+  .login .forgot-link {
+    font-size: 1.3rem;
+  }
+  .login .login-btn {
+    top: 200%;
+    left: 20%;
+  }
+  .login .login-btn-img {
+    width: 9rem;
+  }
+  .login .right-arrow {
+    width: 1.5rem;
+  }
+  .login .links-ul {
+    top: -8rem;
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (max-width: 376px) {
+  .login-header {
+    top: -12.5rem;
+    left: 26%;
+    font-size: 1.3rem;
+  }
+  .login .form-group {
+    top: -2rem;
+    margin-left: -7%;
+  }
+  .login .input {
+    width: 65%;
+  }
+  .login .login-btn {
+    top: 200%;
+    left: 20%;
+  }
+  .login .login-btn-img {
+    width: 8rem;
+  }
+  .login .links-ul {
+    top: -8.5rem;
+  }
+  .login .links-ul li {
+    margin-top: 2rem;
+  }
+}
+
+@media only screen and (max-width: 354px) {
+  .login-header {
+    top: -13rem;
+  }
+  .login .form-group {
+    top: -3rem;
+    margin-left: -7%;
+  }
+  .login .forgot-link {
+    display: inline-block;
+    margin-top: 3px;
+    width: 50%;
+  }
+  .login .links-ul {
+    top: -9.5rem;
+  }
+  .login .links-ul li {
+    margin-top: 2rem;
+  }
+  .login .login-btn {
+    top: 140%;
+    left: 20%;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .login-header {
+    top: -14rem;
+    left: 23%;
+  }
+  .login .form-group {
+    top: -4rem;
+    margin-left: -7%;
+  }
+}
+
+@media only screen and (max-width: 1375px) {
+  .register .form {
+    top: 20%;
+  }
+}
+
+@media only screen and (max-width: 1353px) {
+  .register .form {
+    top: 19%;
+  }
+}
+
+@media only screen and (max-width: 1312px) {
+  .register .form {
+    top: 18%;
+  }
+}
+
+@media only screen and (max-width: 1287px) {
+  .register .form {
+    top: 16%;
+  }
+}
+
+@media only screen and (max-width: 1253px) {
+  .register .form-bg {
+    width: 90%;
+  }
+  .register .form {
+    top: 23%;
+  }
+}
+
+@media only screen and (max-width: 1337px) {
+  .register .form {
+    top: 22%;
+  }
+}
+
+@media only screen and (max-width: 1212px) {
+  .register .form {
+    top: 20.5%;
+  }
+}
+
+@media only screen and (max-width: 1176px) {
+  .register .form {
+    top: 19%;
+  }
+}
+
+@media only screen and (max-width: 1143px) {
+  .register .form {
+    top: 17%;
+  }
+}
+
+@media only screen and (max-width: 1107px) {
+  .register .form {
+    top: 15%;
+  }
+  .register .label {
+    width: 27%;
+  }
+}
+
+@media only screen and (max-width: 1066px) {
+  .register .form {
+    top: 14%;
+  }
+}
+
+@media only screen and (max-width: 1030px) {
+  .register .form {
+    left: 23%;
+  }
+  .register .label {
+    width: 31%;
+  }
+  .register .submit-container {
+    left: 47%;
+    bottom: -22%;
+  }
+}
+
+@media only screen and (max-width: 1018px) {
+  .register .checkbox-group {
+    margin-top: 5%;
+  }
+  .register .checkbox:nth-of-type(2) {
+    margin-left: 3%;
+  }
+  .register .submit-container {
+    bottom: -22%;
+  }
+  .register .submit {
+    font-size: 2.5rem;
+  }
+}
+
+@media only screen and (max-width: 976px) {
+  .register .form-bg {
+    width: 100%;
+  }
+  .register .form-header {
+    font-size: 3rem;
+  }
+  .register .checkbox-group {
+    margin-top: 8%;
+  }
+}
+
+@media only screen and (max-width: 946px) {
+  .register .checkbox-group {
+    margin-top: 7%;
+  }
+}
+
+@media only screen and (max-width: 928px) {
+  .register .checkbox-group {
+    margin-top: 6%;
+  }
+}
+
+@media only screen and (max-width: 893px) {
+  .register .form {
+    top: 18%;
+  }
+  .register .label {
+    width: 32%;
+    font-size: 2rem;
+  }
+  .register .checkbox-group {
+    margin-top: 6%;
+  }
+  .register .checkbox-text {
+    font-size: 1.6rem;
+  }
+  .register .submit-container {
+    bottom: -24%;
+  }
+}
+
+@media only screen and (max-width: 849px) {
+  .register .form-header {
+    font-size: 2.5rem;
+  }
+  .register .form {
+    top: 15%;
+  }
+}
+
+@media only screen and (max-width: 817px) {
+  .register .checkbox-group {
+    margin-top: 5%;
+  }
+}
+
+@media only screen and (max-width: 801px) {
+  .register .form-bg {
+    height: 60rem;
+  }
+  .register .checkbox-text {
+    font-size: 1.4rem;
+  }
+  .register .checkbox-group {
+    margin-top: 7%;
+  }
+  .register .submit-container {
+    bottom: -23%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .register .form-header {
+    font-size: 2rem;
+  }
+  .register .form {
+    top: 18%;
+    left: 18%;
+  }
+  .register .label {
+    width: 32%;
+    font-size: 1.8rem;
+  }
+  .register .input-text {
+    height: 1.8rem;
+  }
+  .register .input-select {
+    height: 1.8rem;
+  }
+  .register .checkbox-group {
+    margin-top: 9%;
+  }
+  .register .submit-container {
+    left: 54%;
+    bottom: -25%;
+  }
+}
+
+@media only screen and (max-width: 646px) {
+  .register .break {
+    display: block;
+  }
+  .register .checkbox-group {
+    margin-top: 9%;
+  }
+  .register .checkbox:nth-of-type(2) {
+    margin-left: 0;
+  }
+  .register .submit-container {
+    left: 54%;
+    bottom: -20%;
+  }
+}
+
+@media only screen and (max-width: 623px) {
+  .register .label {
+    width: 33%;
+    font-size: 1.6rem;
+  }
+  .register .input-text {
+    height: 1.6rem;
+  }
+  .register .input-select {
+    height: 1.6rem;
+  }
+  .register .checkbox-group {
+    margin-top: 10%;
+  }
+}
+
+@media only screen and (max-width: 573px) {
+  .register .form-header {
+    font-size: 1.8rem;
+  }
+  .register .form {
+    top: 19%;
+  }
+}
+
+@media only screen and (max-width: 537px) {
+  .register .label {
+    width: 35%;
+    font-size: 1.6rem;
+  }
+}
+
+@media only screen and (max-width: 506px) {
+  .register .label {
+    width: 37%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .register .form {
+    top: 21.5%;
+    left: 13%;
+  }
+  .register .label {
+    width: 44%;
+    font-size: 1.4rem;
+  }
+  .register .checkbox-text {
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (max-width: 352px) {
+  .register .form {
+    top: 20%;
+  }
+  .register .checkbox-text {
+    font-size: 1.1rem;
+  }
 }
 
 .profile-setup {

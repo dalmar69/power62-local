@@ -17,18 +17,11 @@
         position: absolute;
         right: 0;
         width: 70%;
-        //hides white HOLE... IN THE IMAGE.. LOL
-        background-image: 
-                linear-gradient(
-                    to top right, 
-                    rgba($black, 0%),
-                    rgba($black, 1)) ;
         height: auto; 
     }
     &-panel-img{
         position: relative;
         width: 100%;
-        
     }
     .form-and-links-container{
         position: relative;
@@ -48,7 +41,11 @@
     .form{
         position: relative;
         top: 2rem;
+        &-group{
+            position: relative;
+        }
     }
+    
     &-header{
         position: absolute;
         font-size: 3rem;
@@ -81,14 +78,14 @@
         position: absolute;
         background: none;
         border: none;
-        top: 140%;
+        top: 260%;
         left: 30%;
     }
     .login-btn-img{
         width: 15rem;
         &:hover{
             cursor: pointer;
-        }
+        } 
     }
 
     /****Links*************/

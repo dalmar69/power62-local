@@ -12,7 +12,7 @@
                 @csrf
                 <!-- Name -->
                 <div class="form-group">
-                    <label for="name" class="label">{{ __('Your Name') }}</label>
+                    <label for="name" class="label">{{ __('Name') }}</label>
                         <input id="name" type="text" class="input-text form-control{{ $errors->has('name') ? ' is-invalid' : '' }}" name="name" value="{{ old('name') }}" required autofocus>
                         @if ($errors->has('name'))
                             <span class="invalid-feedback" role="alert">
@@ -22,7 +22,7 @@
                 </div>
                 <!-- Email -->
                 <div class="form-group">
-                    <label for="email" class="label">{{ __('Your Email Address') }}</label>
+                    <label for="email" class="label">{{ __('Email Address') }}</label>
                         <input id="email" type="email" class="input-text form-control{{ $errors->has('email') ? ' is-invalid' : '' }}" name="email" value="{{ old('email') }}" required>
                         @if ($errors->has('email'))
                             <span class="invalid-feedback" role="alert">
@@ -32,7 +32,7 @@
                 </div>
                 <!-- username -->
                 <div class="form-group">
-                    <label for="user_name" class="label">{{ __('Your User Name') }}</label>
+                    <label for="user_name" class="label">{{ __('User Name') }}</label>
                         <input id="user_name" type="user_name" class="input-text form-control{{ $errors->has('user_name') ? ' is-invalid' : '' }}" name="user_name" value="{{ old('user_name') }}" required>
                         @if ($errors->has('user_name'))
                             <span class="invalid-feedback" role="alert">
@@ -42,7 +42,7 @@
                 </div>
                 <!-- password -->
                 <div class="form-group">
-                    <label for="password" class="label">{{ __('Your Password') }}</label>
+                    <label for="password" class="label">{{ __('Password') }}</label>
                         <input id="password" type="password" class="input-text form-control{{ $errors->has('password') ? ' is-invalid' : '' }}" name="password" required>
                         @if ($errors->has('password'))
                             <span class="invalid-feedback" role="alert">
@@ -52,7 +52,7 @@
                 </div>
                 <!-- password confirm -->
                 <div class="form-group">
-                    <label for="password-confirm" class="label">{{ __('Retype Your Password') }}</label>                   
+                    <label for="password-confirm" class="label">{{ __('Retype Password') }}</label>                   
                         <input id="password-confirm" type="password" class="input-text form-control" name="password_confirmation" required>
                 </div>
                  <!-- Pick Your Planet -->
@@ -100,6 +100,8 @@
                 <!-- checkbox -->
                 <div class="form-group checkbox-group">
                     <input type="checkbox" class="checkbox" name="terms-agreement" value="yes" required> <span class="checkbox-text">I agree to the Terms and Conditions</span>
+                    <!-- used to break to new like @media 646 -->
+                    <span class="break"></span>
                     <input type="checkbox" class="checkbox" name="robot" value="no" required> <span class="checkbox-text">I am Not a robot</span> 
                 </div>
                 <!-- submit -->

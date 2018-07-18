@@ -1,7 +1,10 @@
 @extends('layouts.home')
 @section('content')
 
-<section class="contact">
+<!-- container class used by Jquery to 
+    switch hieght to auto instead of 100vh
+!-->
+<section class="contact container">
     <img src="images/power.png" alt="power img" class="logo">
     <div class="row">
         <form action="" class="col-1 contact-form">
@@ -26,7 +29,7 @@
                 <textarea  name="message" class="textarea"> </textarea>
                 <input type="submit" class="submit" value="SUBMIT">
             </div>
-        </form>
+        </form> 
         <div class="col-2">
             <p class="company-info"> 
                 POWER62 GAMES LLC <br>
@@ -50,6 +53,20 @@
 </section>
 
 <script>
-    document.body.style.overflow = "hidden";
+    // document.body.style.overflow-y = "hidden";
+    // $( window ).resize(function() {
+    //     checkPosition();
+    // });
+    
+    // function checkPosition() {
+    //     if (window.matchMedia('(max-width: 767px)').matches) {
+    //         //...
+    //         document.body.style.overflow-y = "scroll";
+    //         } else {
+    //             //...
+    //             document.body.style.overflow-y = "hidden";
+    //     }
+    // }
+    
 </script>
 @endsection

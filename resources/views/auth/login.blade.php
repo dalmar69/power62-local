@@ -57,8 +57,8 @@
                 </form>
                 <div class="login-panel-links-container">
                     <ul class="links-ul">
-                        <li> <img src="images/auth/login/right-arrow.svg" alt="" class="right-arrow"> <a href="/graphic-novel">TO GRAPHIC NOVEL</a></li>
-                        <li> <img src="images/auth/login/right-arrow.svg" alt="" class="right-arrow"> <a href="/underconstruction">TO STARPORT</a></li>
+                        <li> <img src="images/auth/login/right-arrow.svg" alt="" class="right-arrow"> <a href="/graphic-novel">GRAPHIC NOVEL</a></li>
+                        <li> <img src="images/auth/login/right-arrow.svg" alt="" class="right-arrow"> <a href="/underconstruction">STARPORT</a></li>
                     </ul>
                 </div>
             </div>
