@@ -23,14 +23,14 @@
             </div>
             <div class="form-group">
                 <div class="avatar-group">
-                    <img src="images/profile-icon.png" alt="pro file icon" class="power-icon">
+                    <img src="images/profile-icon.png" alt="pro file icon" class="power-icon-1">
                     <span class="px-size-184">184PX</span>
-                    <img src="images/profile-icon.png" alt="pro file icon" class="power-icon">
+                    <img src="images/profile-icon.png" alt="pro file icon" class="power-icon-2">
                     <span class="px-size-64">64PX</span>
-                    <img src="images/profile-icon.png" alt="pro file icon" class="power-icon">
+                    <img src="images/profile-icon.png" alt="pro file icon" class="power-icon-3">
                     <span class="px-size-32">32PX</span>
                 </div>
-                <label for="state" class="label">Avatar</label>
+                <label for="state" class="label avatar-label">Avatar</label>
                 <input type="text" name="avatar" class="input" disabled>
                 <div class="avatar-btn-container">
                     <button class="browse">BROWSE</button> <span class="white">NO FILE SELECTED</span>
@@ -64,7 +64,4 @@
 
     </div>
 </div>
-<script>
-    document.body.style.overflow = "hidden";
-</script>
 @endsection

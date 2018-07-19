@@ -1,15 +1,17 @@
 .contract{
     background: $section-6-bg;
-    height: 100vh;
-    padding-top: 5rem;
+    height: auto; 
+    padding-top: 4rem;
+    padding-bottom: 30rem;
     color: $black;
-
-    .row{
+    .row{ 
         max-width: 100rem;
     }
     .logo{
         position: relative;
-        width: 60rem;
+        min-width: 30rem;
+        max-width: 60rem;
+        width: 70%;
         left: 50%;
         transform: translateX(-50%);
         margin-bottom: 6rem;

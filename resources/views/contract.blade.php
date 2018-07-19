@@ -53,14 +53,14 @@
 
         </div>
 
-        <form action="">
-            <input class="checkbox" type="checkbox"> I HAVE READ AND AGREE TO THE <span class="blue">TERMS OF USE</span>
-                                    AND <span class="blue">PRIVATE POLICY</span>
+        <form action="" class="contract-form">
+            <input class="checkbox" name="checkbox"type="checkbox">
+                <label for="checkbox" class="checkbox-label"> I HAVE READ AND AGREE TO THE 
+                        <span class="blue">TERMS OF USE</span>
+                        AND <span class="blue">PRIVATE POLICY</span>
+                </label>
             <input class="submit"type="submit" value="continue">  
         </form>
     </div>
 </div>
-<script>
-    document.body.style.overflow = "hidden";
-</script>
 @endsection

@@ -2,12 +2,9 @@
 @section('content')
 <section class="under-construction">
     <div class="row">
-        <div class="content">
-            <h1 class="content-header">UNDER CONSTRUCTION</h1>
-            <p class="content-update-info">UPDATE INFORMATION COMING SOON.</p>
-            <br><br>
-            <p><a class="back-homeXD" href="/">Home</a></p>
-        </div> 
+        <a href="/" class="home">        
+        <img src="images/under-construction/bg-with-txt.PNG" alt="" class="bg">
+        </a>
     </div>
 </section> <!-- end p1b --> 
 <script>

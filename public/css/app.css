@@ -1862,8 +1862,9 @@ words:[
 
 .contract {
   background: #8c8b8c;
-  height: 100vh;
-  padding-top: 5rem;
+  height: auto;
+  padding-top: 4rem;
+  padding-bottom: 30rem;
   color: #000;
 }
 
@@ -1873,7 +1874,9 @@ words:[
 
 .contract .logo {
   position: relative;
-  width: 60rem;
+  min-width: 30rem;
+  max-width: 60rem;
+  width: 70%;
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
@@ -1938,6 +1941,54 @@ words:[
   border: none;
   text-transform: uppercase;
   cursor: pointer;
+}
+
+@media only screen and (max-width: 1050px) {
+  .contract {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+@media only screen and (max-width: 1012px) {
+  .contract {
+    padding-bottom: 5rem;
+  }
+  .contract .checkbox {
+    margin-left: 20%;
+  }
+  .contract .submit {
+    display: block;
+    margin-top: 2rem;
+    top: none;
+    left: 50%;
+    -webkit-transform: translatex(-50%);
+            transform: translatex(-50%);
+  }
+}
+
+@media only screen and (max-width: 796px) {
+  .contract .checkbox {
+    margin-left: 10%;
+  }
+}
+
+@media only screen and (max-width: 718px) {
+  .contract .secondary-header {
+    font-size: 2rem;
+  }
+  .contract .checkbox {
+    margin-left: 5%;
+  }
+}
+
+@media only screen and (max-width: 677px) {
+  .contract .checkbox-label {
+    font-size: 1.6rem;
+  }
+  .contract .checkbox {
+    margin-left: 0%;
+  }
 }
 
 .contact {
@@ -2199,33 +2250,13 @@ words:[
 }
 
 .under-construction {
-  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.5))), url("../images/under-construction/bg.png");
-  background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url("../images/under-construction/bg.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 100vh;
   overflow: hidden;
   position: relative;
-  color: white;
-  padding-top: 10rem;
 }
 
-.under-construction .content {
-  position: absolute;
-}
-
-.under-construction .content-header {
-  font-size: 6rem;
-}
-
-.under-construction .content .back-homeXD {
-  color: #fd0202;
-  font-size: 4rem;
-}
-
-.under-construction .content .content-update-info {
-  margin-top: 2rem;
+.under-construction .bg {
+  width: 100%;
+  height: 100vh;
 }
 
 .shop-welcome {
@@ -3203,7 +3234,7 @@ words:[
 
 .profile-setup {
   background: #8c8b8c;
-  height: 100vh;
+  height: auto;
   padding-top: 5rem;
   color: #000;
 }
@@ -3223,7 +3254,9 @@ words:[
 
 .profile-setup .logo {
   position: relative;
-  width: 60rem;
+  min-width: 30rem;
+  width: 70%;
+  max-width: 60rem;
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
@@ -3255,7 +3288,7 @@ words:[
   font-size: 1.8rem;
   border: none;
   height: 2.5rem;
-  width: 50%;
+  width: 33rem;
   letter-spacing: 1.3px;
   padding-left: 1rem;
   color: #fff;
@@ -3267,8 +3300,17 @@ words:[
 }
 
 .profile-setup .avatar-group {
+  width: calc(100% - 40px);
+  float: left;
+  margin-left: 20px;
   position: relative;
-  left: 30%;
+  left: 26%;
+}
+
+.profile-setup .avatar-group::after {
+  clear: both;
+  content: "";
+  display: block;
 }
 
 .profile-setup .avatar-group + .label {
@@ -3280,17 +3322,17 @@ words:[
   margin-right: 1.5rem;
 }
 
-.profile-setup .avatar-group .power-icon:nth-of-type(1) {
+.profile-setup .avatar-group .power-icon-1 {
   width: 15rem;
   cursor: pointer;
 }
 
-.profile-setup .avatar-group .power-icon:nth-of-type(2) {
+.profile-setup .avatar-group .power-icon-2 {
   width: 10rem;
   cursor: pointer;
 }
 
-.profile-setup .avatar-group .power-icon:nth-of-type(3) {
+.profile-setup .avatar-group .power-icon-3 {
   width: 5rem;
   cursor: pointer;
 }
@@ -3298,25 +3340,25 @@ words:[
 .profile-setup .avatar-group .px-size-184 {
   position: absolute;
   bottom: -1.3rem;
-  left: 7%;
+  left: 5rem;
 }
 
 .profile-setup .avatar-group .px-size-64 {
   position: absolute;
   bottom: -1.3rem;
-  left: 29%;
+  left: 18rem;
 }
 
 .profile-setup .avatar-group .px-size-32 {
   position: absolute;
   bottom: -1.3rem;
-  left: 43%;
+  left: 26rem;
 }
 
 .profile-setup .avatar-btn-container {
   position: relative;
   top: -2.3rem;
-  left: 32%;
+  left: 21.5rem;
   font-size: 1.2rem;
 }
 
@@ -3331,13 +3373,14 @@ words:[
 }
 
 .profile-setup .avatar-btn-container .upload {
+  position: relative;
   color: #000;
   background-color: #e67e22;
   border: none;
   padding: 3px 10px;
   border-radius: 20px;
   font-size: 1.2rem;
-  margin-left: 8%;
+  margin-left: 5rem;
   cursor: pointer;
 }
 
@@ -3409,6 +3452,166 @@ words:[
   left: calc(4.16666667% - 20.83333333px + 20px);
   position: relative;
   top: 15rem;
+}
+
+@media only screen and (max-width: 1310px) {
+  .profile-setup .avatar-btn-container {
+    left: 20rem;
+  }
+}
+
+@media only screen and (max-width: 1288px) {
+  .profile-setup .question {
+    left: -18rem;
+  }
+}
+
+@media only screen and (max-width: 1310px) {
+  .profile-setup .avatar-btn-container {
+    left: 19rem;
+  }
+}
+
+@media only screen and (max-width: 1127px) {
+  .profile-setup .col-1 {
+    width: calc(100% - 40px);
+    float: left;
+    margin-left: 20px;
+  }
+  .profile-setup .col-2 {
+    left: calc(33.33333333% - 26.66666667px + 20px);
+    position: relative;
+  }
+  .profile-setup .input {
+    width: 35rem;
+  }
+  .profile-setup .avatar-btn-container {
+    left: 35rem;
+  }
+  .profile-setup .btn-white-1 {
+    left: 28rem;
+  }
+  .profile-setup .btn-white-2 {
+    left: 28rem;
+  }
+  .profile-setup .input-addition {
+    padding-left: 20rem;
+  }
+}
+
+@media only screen and (max-width: 1055px) {
+  .profile-setup .avatar-btn-container {
+    left: 33%;
+  }
+}
+
+@media only screen and (max-width: 755px) {
+  .profile-setup .btn-white-1 {
+    width: 7rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .profile-setup .label {
+    width: 25%;
+  }
+  .profile-setup .avatar-btn-container {
+    left: 28%;
+  }
+  .profile-setup .question {
+    top: 2px;
+    left: 1rem;
+  }
+  .profile-setup .col-2 {
+    left: calc(29.16666667% - 25.83333333px + 20px);
+    position: relative;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  .profile-setup .col-1 {
+    left: calc(0% - 20px + 20px);
+    position: relative;
+  }
+  .profile-setup .col-2 {
+    left: calc(25% - 25px + 20px);
+    position: relative;
+  }
+}
+
+@media only screen and (max-width: 511px) {
+  .profile-setup .avatar-group {
+    top: 2rem;
+    left: -5%;
+  }
+  .profile-setup .avatar-btn-container {
+    left: 5%;
+  }
+  .profile-setup .col-2 {
+    left: calc(0% - 20px + 20px);
+    position: relative;
+  }
+}
+
+@media only screen and (max-width: 397px) {
+  .profile-setup .question {
+    width: 50rem;
+  }
+  .profile-setup .col-2 .input {
+    font-size: 1.6rem;
+  }
+}
+
+@media only screen and (max-width: 386px) {
+  .profile-setup .avatar-label {
+    top: -11rem;
+  }
+  .profile-setup .avatar-group .power-icon-1 {
+    width: 10rem;
+    cursor: pointer;
+  }
+  .profile-setup .avatar-group .power-icon-2 {
+    width: 8rem;
+    cursor: pointer;
+  }
+  .profile-setup .avatar-group .power-icon-3 {
+    width: 5rem;
+    cursor: pointer;
+  }
+  .profile-setup .avatar-group .px-size-184 {
+    position: absolute;
+    bottom: -1.3rem;
+    left: 2rem;
+  }
+  .profile-setup .avatar-group .px-size-64 {
+    position: absolute;
+    bottom: -1.3rem;
+    left: 12rem;
+  }
+  .profile-setup .avatar-group .px-size-32 {
+    position: absolute;
+    bottom: -1.3rem;
+    left: 19.5rem;
+  }
+}
+
+@media only screen and (max-width: 374px) {
+  .profile-setup .input {
+    width: 28rem;
+  }
+  .profile-setup .upload {
+    position: absolute;
+    margin-left: 0rem;
+    top: -2rem;
+    left: 14rem;
+  }
+  .profile-setup .btn-white-1 {
+    left: 20rem;
+  }
+  .profile-setup .btn-white-2 {
+    width: 3rem;
+    left: 24.5rem;
+  }
 }
 
 .navbar-laravel {
